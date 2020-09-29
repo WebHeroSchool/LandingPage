@@ -1,9 +1,9 @@
-.link {
+.menu__link {
   font-family: 'Roboto', sans-serif;
 }
-.text {
+.content__desscription {
   font-family: 'Roboto', sans-serif;
 }
-.button {
+.content__button {
   font-family: 'Roboto', sans-serif;
 }
