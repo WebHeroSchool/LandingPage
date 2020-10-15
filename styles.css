@@ -10,7 +10,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 206px;
+  margin-bottom: 125px;
 }
 
 .logo {
@@ -48,7 +48,7 @@ body {
 .menu__link {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/22px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -89,7 +89,7 @@ body {
 }
 
 .menu__link:last-child {
-  margin-right: 0;
+  margin-right: 15px;
 }
 
 .menu__link_active::after {
@@ -103,12 +103,13 @@ body {
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 81px 63% 150px 0;
   background: top right no-repeat url(img/mainImg.svg);
+  background-size: 782px;
 }
 
 .main__title {
-  margin: 0 0 40px 0;
+  margin: 0 0 36px 0;
   font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
@@ -123,7 +124,7 @@ body {
 
 .main__button {
   display: inline-block;
-  padding: 19px 27px;
+  padding: 19px 28px;
   text-decoration: none;
   border-radius: 4px;
   background: #0056ec;
