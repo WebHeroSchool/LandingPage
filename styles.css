@@ -126,7 +126,7 @@ body {
 }
 
 .main__desscription {
-  margin: 0 0 41px 0;
+  margin: 0 90px 41px 0;
   font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 
@@ -155,8 +155,12 @@ body {
   }
 
   .menu__link {
-    margin: 8px 23px 0 0;
+    margin: 8px 26px 0 0;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .menu__link:last-child {
+    margin-right: 3px;
   }
 
   .main {
@@ -169,19 +173,19 @@ body {
   }
 
   .main__desscription {
-    margin: 0 0 41px 0;
+    margin: 0 0 44px 0;
     font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
-    padding: 13px 15px;
+    padding: 10px 16px 13px 14px;
     font: 500 15px/21px Roboto, arial, helvetica, sans-serif;
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1365px) {
   .wrapper {
-    width: 68%;
+    width: 91%;
   }
 
   .header {
@@ -193,8 +197,12 @@ body {
   }
 
   .menu__link {
-    margin-right: 22px;
+    margin-right: 26px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .menu__link:last-child {
+    margin-right: 0;
   }
 
   .main {
@@ -213,7 +221,7 @@ body {
   }
 
   .main__button {
-    padding: 17px 21px;
+    padding: 15px 21px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
