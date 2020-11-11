@@ -130,6 +130,15 @@ body {
   font: 400 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 
+@keyframes flash {
+  to {
+    color: #FFE4E1;
+    background: #191970;
+    border-radius: 15px;
+    font: 500 18.5px/21.5px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
 .main__button {
   display: inline-block;
   padding: 19px 28px;
@@ -139,6 +148,7 @@ body {
   color: #fff;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   transition: opacity .5s;
+  animation: flash 2s infinite ease-in-out;
 }
 
 .main__button:hover {
